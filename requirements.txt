@@ -1,0 +1,16 @@
+blinker==1.4
+certifi==2020.4.5.1
+dill==0.3.1.1
+enum-compat==0.0.3
+multiprocess==0.70.9
+pox==0.2.7
+ppft==1.6.6.1
+psutil==5.7.0
+pyaml==20.4.0
+python-dateutil==2.8.1
+pywin32==227
+PyYAML==5.3.1
+six==1.15.0
+streamlit==0.52.2
+validators==0.14.1
+wincertstore==0.2

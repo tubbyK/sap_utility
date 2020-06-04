@@ -1,0 +1,33 @@
+Example:
+  t_code: "/nsqvi"
+  query_name: "Example"
+  static_fields:
+      vendor:
+        lower:
+          field_id: "wnd[0]/usr/ctxtSP$00002-LOW"
+          value: 20_000_000
+        higher:
+          field_id: "wnd[0]/usr/ctxtSP$00002-HIGH"
+          value: 29_999_999
+  variable_fields:
+    created_on:
+      type: 'date'
+      partition_on: 'month'
+      start: "2000-01-01"
+      end: "2020-05-31"
+      id_lower: "wnd[0]/usr/ctxtSP$00006-LOW"
+      id_higher: "wnd[0]/usr/ctxtSP$00006-HIGH"
+    created_on:
+      type: 'int'
+      partition_on: '10'
+      start: 10
+      end: 100
+      id_lower: "wnd[0]/usr/ctxtSP$00006-LOW"
+      id_higher: "wnd[0]/usr/ctxtSP$00006-HIGH"
+    created_on:
+      type: 'list'
+      partition_on: 'month'
+      start: ["item_a", "item_b", "item_c"]
+      end: ""
+      id_lower: "wnd[0]/usr/ctxtSP$00006-LOW"
+      id_higher: "wnd[0]/usr/ctxtSP$00006-HIGH"
