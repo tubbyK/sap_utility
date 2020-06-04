@@ -32,7 +32,7 @@ class SAP_Util():
 if __name__ == '__main__':
     s = SAP_Util()
     s.read_query()
-    s.set_plan('PO_MONITORING')
+    s.set_plan('Example')
     procs = []
     action = 'query'
     tcode = s.plan.query['t_code']
