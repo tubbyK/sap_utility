@@ -1,5 +1,5 @@
 blinker==1.4
-certifi==2020.4.5.1
+certifi==2022.12.7
 dill==0.3.1.1
 enum-compat==0.0.3
 multiprocess==0.70.9
